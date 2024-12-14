@@ -65,6 +65,21 @@ form:{
     flex-direction:colum;
     gap:15px;
     margine:0 out;
+    max-width:400px;
+    color-white:white;
+}
+input,textarea,button{
+    width:100%;
+    font-size:1rem;
+    boader:1px solid#ccc;
+    padding:10px;
+    boader-riduis:15px;
+}
+button{
+    background-color:#333;
+    color:white;
+    cursor:pointer;
+    transition-background 0.3s ease;
 }
 .section h2{
     color: #333;
