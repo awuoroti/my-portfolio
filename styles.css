@@ -6,6 +6,7 @@ body{
     box-sizing:border-box;
     background-color:#282c34;
     color:rgb(29,27,27,);
+    font-size:18px;
 }
 header{
     background-color:greenyellow;
@@ -21,32 +22,37 @@ nav ul{
     padding: 0;
 }
 nav ul li{
-    display: inline;
-    margin:  0 15px;
+    
+    margin:  0 25px;
 }
 nav ul li a{
     color: purple;
     text-decoration: none;
+    font-weight:bold;
+    transitionn:color 0.3 ease;
+    font-size:1.5rem;
+    padding:10px  15px;
 }
 nav ul li a:hover{
     color: greenyellow;
 }
 section{
-    margin: 20px auto;
-    padding: 0px 20px;
-    max-width: 800px;
+    padding:50px 20px;
+    text-align:centre;
 }
 #project,#about,#contact-me{
     max-width: 800px;
     margin: 20px auto;
 }
 .project{
-    background-color:greenyellow;
+    background-color:white;
     margine:20px outo;
     padding:20px;
     border-radius:10px;
+    
     box-shadow 0 4px 6px rgba(0,0,0,0.1)
-    transition:transform 0.3s eas-in-out;
+    transition:translate Y(-5px)
+        0.3s eas-in-out;
     display:flex;
     text direction:colum;
     align-item:center;
