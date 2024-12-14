@@ -2,12 +2,15 @@ body{
     font-family: Arial,sans-serif;
     margin: 0px;
     padding: 0px;
-    line-height: 1.6;
+    line-height: 1.6px;
+    box-sizing:border-box;
+    background-color:#282c34;
+    color:rgb(29,27,27,);
 }
 header{
     background-color:greenyellow;
     color: #fff;
-    padding: 1REM 0;
+    padding: 20px 0;
     text-align: center;
 }
 nav ul{
